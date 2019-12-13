@@ -18,7 +18,7 @@ end
 def take_a_number(array, custy)
 
 i = 1 
-if array.length == 0 
+if array.length >= 0 
    array << custy
  
  else 
