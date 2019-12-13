@@ -1,12 +1,12 @@
-
-def line(katz_deli)
+require 'pry'
+def line(array)
   
-  if katz_deli.length == 0   
+  if array.length == 0   
     puts "The line is currently empty."
     
   else  
        ppl_on_line = [ "The line is currently:"] 
-       katz_deli.each_with_index do |customer, index|
+       array.each_with_index do |customer, index|
        ppl_on_line << [" #{index + 1}. #{customer}"]
       
     end
@@ -15,9 +15,21 @@ def line(katz_deli)
 end
 
 
-def take_a_number(katz_deli, custy)
-  
+def take_a_number(array, custy)
+
+i = 0 
+if array.length == 0 
+   array << custy
+ 
+ else array.length > 0 
+   array << custy
+  i += 1 
 end
+   puts "Welcome, #{custy}. You are number #{i + 1 } in line." 
+end
+
+
+
 
 
 # Write your code here.
