@@ -21,7 +21,7 @@ i = 1
 if array.length == 0 
    array << custy
  
- else  array.length >= 1 
+ else  array.length > 0 
    array.push(custy)
   i += 1
   binding'pry'
