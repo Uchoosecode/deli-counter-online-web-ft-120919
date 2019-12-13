@@ -23,8 +23,8 @@ if array.length == 0
  
  else  
    array << custy
-  i += 1 
 end
+  i += 1 
    puts "Welcome, #{custy}. You are number #{i} in line." 
 end
 
