@@ -17,15 +17,15 @@ end
 
 def take_a_number(array, custy)
 
-i = 0 
+i = 1 
 if array.length == 0 
    array << custy
  
- else array.length > 0 
+ else  
    array << custy
   i += 1 
 end
-   puts "Welcome, #{custy}. You are number #{i + 1 } in line." 
+   puts "Welcome, #{custy}. You are number #{i} in line." 
 end
 
 
