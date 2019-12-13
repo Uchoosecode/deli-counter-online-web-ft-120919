@@ -22,7 +22,7 @@ if array.length == 0
    array << custy
  
  else  array.length >= 1 
-   array << custy
+   array custy
   i += 1
   binding'pry'
 end
