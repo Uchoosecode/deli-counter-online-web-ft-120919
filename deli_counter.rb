@@ -19,7 +19,7 @@ def take_a_number(array, custy)
 
    array << custy
  
-   puts "Welcome, #{custy}. You are number #{i} in line." 
+   puts "Welcome, #{custy}. You are number #{array.length} in line." 
 end
 
 
