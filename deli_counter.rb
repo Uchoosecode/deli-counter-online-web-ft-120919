@@ -21,7 +21,6 @@ i = 1
 if array.length >= 0 
    array << custy
  
- else 
   i += 1
 
 end
