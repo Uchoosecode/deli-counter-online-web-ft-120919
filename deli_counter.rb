@@ -29,7 +29,7 @@ if array.length == 0
   puts "There is nobody waiting to be served!"
 
 else 
-  array.pop
+  array.shift
 end
 end
 
