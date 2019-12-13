@@ -21,10 +21,9 @@ i = 1
 if array.length == 0 
    array << custy
  
- else  array.length > 0 
-   array.push(custy)
+ else 
   i += 1
-  binding'pry'
+
 end
    puts "Welcome, #{custy}. You are number #{i} in line." 
 end
