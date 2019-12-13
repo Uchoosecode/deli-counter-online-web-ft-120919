@@ -30,7 +30,7 @@ if array.length == 0
 
 else 
   array.shift
-  puts "Currently sevring #{array.shift.first}"
+  puts "Currently sevring #{array[0]}"
 end
 end
 
