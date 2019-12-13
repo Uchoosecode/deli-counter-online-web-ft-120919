@@ -23,6 +23,12 @@ def take_a_number(array, custy)
 end
 
 
+def now_serving(array)
+  
+
+
+end
+
 
 
 
