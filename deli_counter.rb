@@ -22,8 +22,9 @@ if array.length == 0
    array << custy
  
  else  
-   array << i[custy]
-  i += 1 
+   array << custy
+  i += 1
+  binding'pry'
 end
    puts "Welcome, #{custy}. You are number #{i} in line." 
 end
